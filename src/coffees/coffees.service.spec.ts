@@ -1,9 +1,6 @@
-/* 
-  coffees-service.spec.ts - FINAL CODE
-*/
 import { Test, TestingModule } from '@nestjs/testing';
 import { CoffeesService } from './coffees.service';
-import { Connection, DataSource, Repository } from 'typeorm';
+import { DataSource, Repository } from 'typeorm';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Flavor } from './entities/flavor.entity';
 import { Coffee } from './entities/coffee.entity';
